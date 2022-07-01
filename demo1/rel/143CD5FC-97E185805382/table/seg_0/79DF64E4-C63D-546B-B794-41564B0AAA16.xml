@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79DF64E4-C63D-546B-B794-41564B0AAA16" name="Student">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 08:24:20 UTC</createdTime>
+<generatorID>81EAB6FD-6098-7FAB-C31E-E2C7FB5339F1</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="0088DF4C-1B4B-B570-A4C3-5AA08EAC5A9A">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 08:24:20 UTC</createdTime>
+<generatorID>82024743-7E5A-14FF-415F-E7152665D476</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_name" id="D2A4E0C0-11D5-6AC3-0ED8-00164EC7E49A">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 08:24:20 UTC</createdTime>
+<generatorID>6A5C776D-D70F-9DF2-490E-35F42C8C8CF0</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="DA7C4AF5-A416-4490-690C-607CE5FD4033">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 08:24:20 UTC</createdTime>
+<generatorID>43F4F8F5-A0DD-43FC-7CAE-10FF440294EE</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_dept_name" id="CEEB421B-67D9-644B-1587-E7CE21BE0665">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 08:24:20 UTC</createdTime>
+<generatorID>7DAA9D71-E38E-D5CA-69DC-94CCB959B0A0</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0831EFAB-F747-F9F4-3DD6-FA537EB55FFB" referredColumn="410BFB68-025B-76A6-A3F3-B37E0C8B601D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DA5F470-E43B-EF76-B60A-344D071CEF04" name="Student_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 08:24:20 UTC</createdTime>
+<generatorID>97D9909C-61E4-6178-45F6-C3922C17726F</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0088DF4C-1B4B-B570-A4C3-5AA08EAC5A9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF3F91BE-21D9-C6BF-E9EB-18DE254A6F1F" name="Student_Department_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 08:24:20 UTC</createdTime>
+<generatorID>A741872C-F3E4-F8A7-40C5-95D87D4867A5</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEEB421B-67D9-644B-1587-E7CE21BE0665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

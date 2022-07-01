@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E79D45D-943E-63AE-69D7-823AA1D61740" name="All Files">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 15:36:43 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="file_name" id="8D74E523-4BE7-F727-06FA-098D7DE8A6DE">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 15:37:32 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="files" id="45BECD16-A498-B5A1-9938-87BE7001173F">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 15:36:48 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file_type" id="76FF1CB6-F33B-9D42-418C-64DE68D9FDD0">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 15:37:48 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file_time" id="EC0D37BD-4241-A311-28CE-A78EF8C06E49">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 15:38:05 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file_characterset" id="FF031DC6-2DC3-63A6-553E-2520C02E1812">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 15:38:37 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="topic" id="43136DFC-9C65-2BAB-8AB7-CAD8A591E822">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:24:02 UTC</createdTime>
+<generatorID>11683AC5-6E1D-7126-BFF7-2D30201D25AD</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<referedAttribute>9484EF6D-A206-DA4B-AF6D-DE69450E7A45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="faculty_id" id="DCC9722D-B316-E173-634B-AF634A4DE4DF">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:32:11 UTC</createdTime>
+<generatorID>46AACA64-1851-711A-5CCC-9112E233E599</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<referedAttribute>8703ED90-A890-77C5-65EB-D5D806D88A8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A1A664D-EA8E-2190-759E-C5372C1A2273" name="Slides PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 15:48:16 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D74E523-4BE7-F727-06FA-098D7DE8A6DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

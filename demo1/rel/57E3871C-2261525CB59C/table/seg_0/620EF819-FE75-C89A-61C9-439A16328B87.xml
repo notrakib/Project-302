@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="620EF819-FE75-C89A-61C9-439A16328B87" name="Book">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>2AF7B50B-1CF1-B1A0-3CF9-D58CBD018A3B</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="book_name" id="3AECF95B-D6E9-A135-D4AC-26B96A178137">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>47D50B8C-3968-EE85-E64B-1AF86F1C99A2</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edition" id="3CF422EB-E437-F00D-AA27-608FEDF97D74">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>FC125F5C-A43F-7CD4-5FEC-7C6211F275A2</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="writter_name" id="B0FD980E-8D0D-7874-621F-02FC77DE4DAE">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>B05B4FF0-61D8-6EC7-0C12-01ED3D1FDB4F</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Topic_topic" id="27959102-1329-148C-82D7-758C0D091C55">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>C753CB23-DCC0-193D-07B8-3DCCD3CD3122</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3503B98A-2E6E-2A31-696C-22A1583A5455" referredColumn="74912F5D-CCAF-CAA9-C4F4-9E04C53E00D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E35B0191-1C5B-B181-527B-443028EE144B" name="Book_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>B9DE4790-E87E-4C93-CF44-37FF19F74DD9</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AECF95B-D6E9-A135-D4AC-26B96A178137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51D9E8FA-0EA8-5CDD-C4D7-BD56D70E3AE3" name="Book_Topic_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>5B806586-B82A-E015-816F-D93BB786D537</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27959102-1329-148C-82D7-758C0D091C55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

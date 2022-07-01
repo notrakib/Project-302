@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86F326A5-CAFE-E499-F98E-27FD40145E60" name="Files">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:17:49 UTC</createdTime>
+<generatorID>3E79D45D-943E-63AE-69D7-823AA1D61740</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="file" id="967073FA-BFEE-3F9D-0457-FE9BA44F2EF9">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:17:49 UTC</createdTime>
+<generatorID>45BECD16-A498-B5A1-9938-87BE7001173F</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_name" id="1983F2E7-EE09-FD99-D213-4CD1E8FACA0A">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:17:49 UTC</createdTime>
+<generatorID>8D74E523-4BE7-F727-06FA-098D7DE8A6DE</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_type" id="27DA535F-B59B-83BC-5753-2A4CDC79DD42">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:17:49 UTC</createdTime>
+<generatorID>76FF1CB6-F33B-9D42-418C-64DE68D9FDD0</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_time" id="96188FC2-46A8-FAE9-E520-5D975C9E2BEB">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:17:49 UTC</createdTime>
+<generatorID>EC0D37BD-4241-A311-28CE-A78EF8C06E49</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_characterset" id="0A2EE3F2-766C-9634-6EDD-125C3DBE2194">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:17:49 UTC</createdTime>
+<generatorID>FF031DC6-2DC3-63A6-553E-2520C02E1812</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Topic_topic" id="102C4B83-D5BF-2C89-6AEA-028045A49393">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:17:49 UTC</createdTime>
+<generatorID>B78FC96D-44EA-411C-A144-F491A3FE3117</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F85C9C0-08F7-9929-CC54-7225D7D1E779" referredColumn="FD6DF99E-ED60-4810-663A-DB41A4E841A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="045BD471-A816-F70B-26CC-CCA10377994B" name="Files_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:17:49 UTC</createdTime>
+<generatorID>0A1A664D-EA8E-2190-759E-C5372C1A2273</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1983F2E7-EE09-FD99-D213-4CD1E8FACA0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD82960E-2303-77C2-D5A0-58F1CC46936C" name="Files_Topic_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:17:49 UTC</createdTime>
+<generatorID>C1AB6A00-5937-66BC-6E68-0BA74B4BB605</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="102C4B83-D5BF-2C89-6AEA-028045A49393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

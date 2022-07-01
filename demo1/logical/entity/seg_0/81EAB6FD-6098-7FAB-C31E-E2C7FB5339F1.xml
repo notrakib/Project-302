@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81EAB6FD-6098-7FAB-C31E-E2C7FB5339F1" name="Student">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:15:22 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student id" id="82024743-7E5A-14FF-415F-E7152665D476">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:21:36 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student name" id="6A5C776D-D70F-9DF2-490E-35F42C8C8CF0">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:21:54 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Department dept name" id="7DAA9D71-E38E-D5CA-69DC-94CCB959B0A0">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:53:28 UTC</createdTime>
+<generatorID>A741872C-F3E4-F8A7-40C5-95D87D4867A5</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<referedAttribute>2A85F104-C5DE-C11E-3AAA-39B0AB03CB11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pic" id="009D2E64-C847-6DBB-80A2-A6180C4952F5">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:56:49 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pic_name" id="FCC7FDA8-A315-1DA8-5F7A-A84183C8431E">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:56:50 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pic_type" id="6EA7D407-504E-D2F2-555B-ECCFD74EE52B">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:56:50 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pic_time" id="12EBD7EE-77B2-79D9-D91E-08FC7E8A82BD">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:56:51 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pic_character" id="81C059B1-D528-D874-84E3-4F81D73E7D91">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:56:51 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97D9909C-61E4-6178-45F6-C3922C17726F" name="Student_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:21:52 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="BCAAA0FB-6BA0-F6BB-2399-81E9F93615CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82024743-7E5A-14FF-415F-E7152665D476</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

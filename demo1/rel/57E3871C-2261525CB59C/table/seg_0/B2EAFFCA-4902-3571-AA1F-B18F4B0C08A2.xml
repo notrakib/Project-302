@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2EAFFCA-4902-3571-AA1F-B18F4B0C08A2" name="Student">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>81EAB6FD-6098-7FAB-C31E-E2C7FB5339F1</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="22AC337F-D13C-794C-20D2-EC2F46EC9A0C">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>82024743-7E5A-14FF-415F-E7152665D476</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_name" id="0980C361-FAB6-2F21-7F17-C0A1D3C10AE5">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>6A5C776D-D70F-9DF2-490E-35F42C8C8CF0</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_dept_name" id="554B181A-2455-9712-435D-0BE4177AB277">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>7DAA9D71-E38E-D5CA-69DC-94CCB959B0A0</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54E8133E-E21E-6271-9284-191DD4C404FD" referredColumn="D1FBA351-D53E-D1CB-3DD8-8563FEB8A054"/>
+</associations>
+</Column>
+<Column name="pic" id="6E7D9CD5-D74C-F320-4A93-979EC773C65C">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>009D2E64-C847-6DBB-80A2-A6180C4952F5</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pic_name" id="8080AA50-383A-D6E4-5CCC-9E3B1104CDC6">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>FCC7FDA8-A315-1DA8-5F7A-A84183C8431E</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pic_type" id="9F2E9F17-4D97-BEDE-DBE5-D56E48BCBE93">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>6EA7D407-504E-D2F2-555B-ECCFD74EE52B</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pic_time" id="60130205-F7D3-2B1D-67B3-73FEEE135884">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>12EBD7EE-77B2-79D9-D91E-08FC7E8A82BD</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pic_character" id="23AF2383-EB2C-25C3-45F7-70358C09079B">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>81C059B1-D528-D874-84E3-4F81D73E7D91</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3BFCA4E-F557-C55B-9F67-C175F021DBEB" name="Student_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>97D9909C-61E4-6178-45F6-C3922C17726F</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22AC337F-D13C-794C-20D2-EC2F46EC9A0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2AB049A-C001-F6F1-2A97-12226F9A1320" name="Student_Department_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:58:10 UTC</createdTime>
+<generatorID>A741872C-F3E4-F8A7-40C5-95D87D4867A5</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="554B181A-2455-9712-435D-0BE4177AB277"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F1CC7E8-B41A-E919-695B-2C13A70802C5" containerWithKeyObject="F0965C27-D61F-6E53-EC69-FC28438732B9" localFKIndex="8D42E855-BB73-06A6-6C3C-F8C9D20A8C15" name="Book_Topic_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<generatorID>3C95A366-AD3A-6EA8-E318-CE2A5ACCF623</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<referredTableLongName>Topic</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>755BDFD4-E863-1D1E-A570-A7F365CDBF27</referredTableID>
+<keyObject>BC1EC3B5-A1A9-2CE8-C5BC-C5E2AF2A886B</keyObject>
+<referredKeyID>BC1EC3B5-A1A9-2CE8-C5BC-C5E2AF2A886B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>topic</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

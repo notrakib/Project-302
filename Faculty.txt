@@ -1,0 +1,61 @@
+
+
+
+
+--CSE      
+INSERT INTO faculty VALUES(103,'Dr.Taskeed jabid','TJ',501,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(106,'Dr. Shamim H Ripon','DHSU',502,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(109,'Dr. Md. Nawab Yousuf Ali','ALI',503,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(112,'Dr. Ahmed Wasif Reza','DAWR',504,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(115,'Dr. Maheen Islam','MI',505,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO faculty VALUES(118,'Dr. Mohammad Rezwanul Huq','DMRH',506,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(121,'Dr. Anisur Rahman','AR',507,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(124,'Dr. Mohammad Salah Uddin','DSU',508,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(127,'Dr. Md Sawkat Ali','SALI',509,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(130,'Sazia Mahfuz','SW',510,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(133,'Ms. Shaila Sharmeen','SS',511,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(136,'Md. Sarwar Kamal','SK',512,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(139,'Md. Shamsujjoha','SMJ',513,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(142,'Rashedul Amin Tuhin','RAT',514,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(145,'Surajit Das Barman','SDB',515,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(148,'Amit Kumar Das','AKD',516,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(151,'Tanni Mittra','TM',517,NULL,NULL,NULL,NULL,NULL);      
+     
+      
+--EEE
+INSERT INTO faculty VALUES(154,'M. M. Shahidul Hassan','MMSH',401,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(157,'Dr. Anisul Haque','DAH',402,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(160,'Fakir Mashuque Alamgir','FMA',403,NULL,NULL,NULL,NULL,NULL);   
+--GEB
+INSERT INTO faculty VALUES(163,'Dr. Md. Mohiuddin Kabir','DMMK',701,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(166,'Suraia Nusrin','SN',702,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(169,'Mst Murshida Mahbub','MMM',703,NULL,NULL,NULL,NULL,NULL); 
+
+--MPs
+INSERT INTO faculty VALUES(172,'Nazneen Sultana','NZS',301,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(175,'A. K. M. Nazimuddin','AKMN',302,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(178,'Ms. Nazia Afrin','MMM',303,NULL,NULL,NULL,NULL,NULL);  
+--BBA
+INSERT INTO faculty VALUES(181,'Dr. Tanbir Ahmed Chowdhury','TAC',801,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(184,'Dr. Farhana Ferdousi','FRF',802,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(187,'Ms. Nazia Afrin','MMM',803,NULL,NULL,NULL,NULL,NULL);  
+--ECO  
+INSERT INTO faculty VALUES(193,'Dr. Iftekharul Huq','IH',102,NULL,NULL,NULL,NULL,NULL);      
+INSERT INTO faculty VALUES(196,'Asiya Siddica','ASC',103,NULL,NULL,NULL,NULL,NULL); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     

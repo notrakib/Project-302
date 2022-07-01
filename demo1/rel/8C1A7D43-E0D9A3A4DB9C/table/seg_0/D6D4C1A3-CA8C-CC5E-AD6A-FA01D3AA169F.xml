@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6D4C1A3-CA8C-CC5E-AD6A-FA01D3AA169F" name="Reader">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Course_course_code" id="41CB6A18-8194-0F15-181A-3342047E9F72">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1F5E592-CC3F-59EE-0E5A-AE5A130871CA" referredColumn="C24FD468-AAE8-DA4E-108D-A975F2728CF9"/>
+</associations>
+</Column>
+<Column name="Student_student_id" id="FFFCF5D2-BA23-E2ED-E3B7-207F562E5A47">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D05B40E3-8B7C-003A-5A07-14A8C3AB1D6B" referredColumn="BE67C4A4-DCF1-5625-AD54-D9A83D0DCB54"/>
+</associations>
+</Column>
+<Column name="semester" id="C85B7E0A-0991-3052-FC21-312586E97C42">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<generatorID>7DE03275-5820-F9C2-EDB2-80C5C723056E</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="year" id="F21B3FD8-0488-7AC6-B9CB-1C2B5084891D">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<generatorID>27E69468-7F9A-D52E-BF54-B1D5BEE62C63</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BF272DD-715B-4253-118B-EA4744C0D936" name="Reader_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41CB6A18-8194-0F15-181A-3342047E9F72"/>
+<colUsage columnID="FFFCF5D2-BA23-E2ED-E3B7-207F562E5A47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00461D81-440B-0B2D-E3EB-D1FCB6E526EA" name="Reader_Course_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<generatorID>8F41BB2A-1BC8-7BBB-76C6-D857AB836604</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41CB6A18-8194-0F15-181A-3342047E9F72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94443CF8-532A-89D5-ECF0-F21B1762A1A5" name="Reader_Student_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<generatorID>8F41BB2A-1BC8-7BBB-76C6-D857AB836604</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFFCF5D2-BA23-E2ED-E3B7-207F562E5A47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

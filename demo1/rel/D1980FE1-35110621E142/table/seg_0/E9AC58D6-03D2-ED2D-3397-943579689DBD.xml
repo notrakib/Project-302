@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9AC58D6-03D2-ED2D-3397-943579689DBD" name="Faculty">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>F33C6EF5-8ED3-06F2-C969-7ADBC9CB4620</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="faculty_id" id="21102632-AA86-9E49-55D5-FAAC58B494BB">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>8703ED90-A890-77C5-65EB-D5D806D88A8A</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faculty_name" id="95A522A6-B261-54BC-0FB7-38B3E9256BC5">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>DBCA08C0-F5D5-07F9-667B-7648FFFAED76</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="initials" id="99DF5394-C15B-1316-6621-9B3ADC835572">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>8B49657E-A5DD-9D3A-ED71-26596CDD8626</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="room_no" id="2B8389F3-A855-606D-3736-3C0AEC704477">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>43681794-C3B1-92C6-7823-724D65D0CDB3</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="img" id="F231D62B-E2D3-F5DD-EA05-82EA1E335119">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>B2C145F4-1ABB-5FDE-A0C8-7183712164C0</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="img_name" id="DDBD853C-E0A1-961B-B300-FA14E1106437">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>EF26CA59-F1A3-BC82-480E-C33A5F5FEC0D</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="img_type" id="D93AEFC7-1E7E-FFAF-3738-3DBF7E50135F">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>CE086A1F-2C1D-0E36-3A1A-9AC1B96E6EAE</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="img_time" id="65AE0036-D51D-94AB-9DB2-518FC90785FC">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>B125C1BF-92CF-1AB1-5F6B-D09BA0E92526</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="img_character" id="F5D921EB-93B9-04E3-E0E6-394B5A5F1BE5">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>DED11D5A-479D-F3AE-78C7-C8CE8F53D0A7</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9BB4811-FC97-3DEE-7D0A-3F67C1710903" name="Faculty_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2021-01-10 13:43:12 UTC</createdTime>
+<generatorID>91F8D45A-A903-E6FF-1E96-9C92504D448C</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21102632-AA86-9E49-55D5-FAAC58B494BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

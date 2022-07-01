@@ -1,0 +1,70 @@
+
+-- CSE all_files --
+insert into all_files values ('CSE file 103', NULL, PDF, NULL, NULL, 'Linked List Implementation and its application', 103);
+insert into all_files values ('CSE file 106', NULL, Word Document, NULL, NULL, 'Design object oriented program', 106);
+insert into all_files values ('CSE file 109', NULL, Word Document, NULL, NULL, 'Introduction to computer', 109);
+ 
+
+
+-- EEE all_files --
+insert into all_files values ('EEE file 154', NULL, PDF, NULL, NULL, 'Apply different analysis techniques', 154);
+insert into all_files values ('EEE file 157', NULL, Word Document, NULL, NULL, 'MOSFET circuits with DC and AC sources', 157);
+insert into all_files values ('EEE file 160', NULL, PDF, NULL, NULL, 'Write and debug programs to solve  problems', 160);
+
+-- ECE all_files --
+
+
+-- Civil all_files --
+insert into all_files values ('CE file 172', NULL, PDF, NULL, NULL, 'Coplanar and non-coplanar force systems', 172);
+insert into all_files values ('CE file 175', NULL, Word Document, NULL, NULL, 'Hydraulic structures; drawings of building', 175);
+insert into all_files values ('CE file 178', NULL, Word Document, NULL, NULL, 'Application of nano technology in cement', 178);
+
+-- ECO all_files --
+insert into all_files values ('ECO file 193', NULL, PDF, NULL, NULL, 'The concept of scarcity and choice', 193);
+insert into all_files values ('ECO file 196', NULL, Word Document, NULL, NULL, 'Macroeconomic model using a graphical approach', 196);
+insert into all_files values ('ECO file 193', NULL, PDF, NULL, NULL, 'Emphasis on Bangladesh', 193);
+
+-- ISLM all_files --
+--insert into all_files values ('ISLM file 101', NULL, PDF, NULL, NULL, 'Information and knowledge management', 'ISLM file 101', );
+--insert into all_files values ('ISLM file 102', NULL, Word Document, NULL, NULL, 'Concepts of information science, information', 'ISLM file 102', );
+--insert into all_files values ('ISLM file 103', NULL, Word Document, NULL, NULL, 'Historical development of libraries', 'ISLM file 103', );
+
+-- Pharmacy all_files --
+insert into all_files values ('PHRM file 163', NULL, PDF, NULL, NULL, 'Liquid solutions and colligative properties', 163);
+insert into all_files values ('PHRM file 166', NULL, Word Document, NULL, NULL, 'Anatomical structures in the human body', 166);
+insert into all_files values ('PHRM file 169', NULL, Image File, NULL, NULL, 'Properties of organic chemicals', 169);
+
+-- Eng all_files --
+insert into all_files values ('ENG file 181', NULL, PDF, NULL, NULL, 'Special emphasis on reading and writing', 181);
+insert into all_files values ('ENG file 184', NULL, Word Document, NULL, NULL, 'Writing and analyzing non-fiction prose', 184);
+insert into all_files values ('ENG file 187', NULL, Word Document, NULL, NULL, 'Basic concepts of linguistics', 187);
+
+-- GEB all_files --
+insert into all_files values ('GEB file 163', NULL, PDF, NULL, NULL, 'Basic biochemistry of emphasize cell', 163);
+insert into all_files values ('GEB file 166', NULL, Word Document, NULL, NULL, 'Nucleic acid metabolism', 166);
+insert into all_files values ('GEB file 169', NULL, Image File, NULL, NULL, 'Variety of current biotechnological technologies', 169);
+
+-- BBA all_files --
+insert into all_files values ('BUS file 181', NULL, PDF, NULL, NULL, 'Business operations and developments', 181);
+insert into all_files values ('ACT file 184', NULL, Word Document, NULL, NULL, 'Fundamentals to the beginners', 184);
+insert into all_files values ('FIN file 187', NULL, Word Document, NULL, NULL, 'Basic financial management', 187);
+
+-- Sociology all_files --
+insert into all_files values ('SOC file 181', NULL, PDF, NULL, NULL, 'Nature and scope of Sociology', 181);
+insert into all_files values ('SOC file 184', NULL, Word Document, NULL, NULL, 'Anthropology as a Field of Knowledge', 184);
+insert into all_files values ('SOC file 187', NULL, Image File, NULL, NULL, 'Development of modern social psychology', 187);
+
+-- Law all_files --
+--insert into all_files values ('LAW file 102', NULL, PDF, NULL, NULL, 'The Development of Muslim Law', 'LAW file 102');
+--insert into all_files values ('LAW file 104', NULL, Word Document, NULL, NULL, 'Control of the Legislative Powers', 'LAW file 104');
+--insert into all_files values ('LAW file 203', NULL, NULL, NULL, NULL, 'Nature and Characteristics of Hindu law', 'LAW file 203');
+
+-- Social Relation all_files --
+insert into all_files values ('GEN file 193', NULL, PDF, NULL, NULL, 'Independence of Bangladesh', 193);
+insert into all_files values ('GEN file 196', NULL, Word Document, NULL, NULL, 'To examine the basic tenets of newspaper', 196);
+insert into all_files values ('GEN file 193', NULL, PDF, NULL, NULL, 'Developing mortality in organization', 193);
+
+-- MPS all_files --
+insert into all_files values ('MAT file 172', NULL, PDF, NULL, NULL, 'Limit, Continuity and differentiability', 172);
+insert into all_files values ('MAT file 175', NULL, Word Document, NULL, NULL, 'Degree and order of differential equation', 175);
+insert into all_files values ('PHY file 178', NULL, PDF, NULL, NULL, 'Different types of Waves', 178);

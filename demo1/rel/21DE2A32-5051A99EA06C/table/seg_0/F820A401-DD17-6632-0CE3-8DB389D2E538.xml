@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F820A401-DD17-6632-0CE3-8DB389D2E538" name="Contributor">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Faculty_faculty_id" id="4330F81C-3EEA-5517-BBAC-893583EDEF9D">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8419021F-08BE-1CE6-163A-7DD5B8A84772" referredColumn="A9C2514B-6412-8150-A21C-90F59E0EB1A7"/>
+</associations>
+</Column>
+<Column name="Course_course_code" id="6CA626B3-EBE0-B8CD-79C4-B9C860B019F6">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0469FFA7-D799-E978-D439-DC9C27B8819E" referredColumn="F7D81BBD-EA91-AB24-D884-193DDDCBB533"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF7CF084-D7B6-5077-BE93-55AC7879E4F3" name="Contributor_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4330F81C-3EEA-5517-BBAC-893583EDEF9D"/>
+<colUsage columnID="6CA626B3-EBE0-B8CD-79C4-B9C860B019F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11374DCE-16BC-58F2-6BD2-2C55CD796C9B" name="Contributor_Faculty_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>CB13A5E0-9E10-32C4-C8E2-E98DF0017E35</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4330F81C-3EEA-5517-BBAC-893583EDEF9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57EB7699-99D2-A83F-A694-0D3233A0877A" name="Contributor_Course_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>CB13A5E0-9E10-32C4-C8E2-E98DF0017E35</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CA626B3-EBE0-B8CD-79C4-B9C860B019F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

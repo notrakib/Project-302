@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB32B886-8789-9504-BE4D-3516125775B9" name="Sample Question">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:15:17 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="F5B85EF4-2259-D97D-50B4-4CD20D36EFD2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ques file" id="ED232988-798B-E31A-1B6F-59EAC9B1F1D5">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:26:44 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="F5B85EF4-2259-D97D-50B4-4CD20D36EFD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ques name" id="B65855CA-9E45-5219-0887-D0B01E51AF51">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:28:33 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="F5B85EF4-2259-D97D-50B4-4CD20D36EFD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ques type" id="664A8F85-736D-7939-812A-39F66C5BEC5A">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:28:44 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="F5B85EF4-2259-D97D-50B4-4CD20D36EFD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ques time" id="8FDBE96F-85C4-3E12-E44D-DCACB0569AA2">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:29:01 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="F5B85EF4-2259-D97D-50B4-4CD20D36EFD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ques character" id="A5805096-B56D-BE68-9F6A-9F49D924B9EA">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:29:39 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="F5B85EF4-2259-D97D-50B4-4CD20D36EFD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course code" id="3DB63867-EC8C-EF37-508D-614B986CF408">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 17:59:37 UTC</createdTime>
+<generatorID>E0B2D31B-E83F-E4BB-AC37-F04D192342D7</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="F5B85EF4-2259-D97D-50B4-4CD20D36EFD2" value="true"/>
+</engineerTo>
+<referedAttribute>E222BB2E-C297-9871-7004-199EE46AC0B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F1EABDC-3C26-F0BC-5D2D-7473AC1C85BF" name="Sample_Question_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 15:48:21 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="F5B85EF4-2259-D97D-50B4-4CD20D36EFD2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B65855CA-9E45-5219-0887-D0B01E51AF51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

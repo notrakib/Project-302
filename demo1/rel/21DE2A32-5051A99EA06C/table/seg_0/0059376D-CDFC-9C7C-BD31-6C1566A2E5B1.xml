@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0059376D-CDFC-9C7C-BD31-6C1566A2E5B1" name="Sample_Question">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>EB32B886-8789-9504-BE4D-3516125775B9</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ques_file" id="67977E7D-26E4-8098-7DD0-6C62C70BBC49">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>ED232988-798B-E31A-1B6F-59EAC9B1F1D5</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ques_name" id="3AFB3FF2-0B71-9A86-6E99-E7095F8D548D">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>B65855CA-9E45-5219-0887-D0B01E51AF51</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ques_type" id="70EE8502-1E68-045E-1D08-8D1A17209087">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>664A8F85-736D-7939-812A-39F66C5BEC5A</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ques_time" id="9B4DE170-2AA2-7194-5603-9ECA9C2733F0">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>8FDBE96F-85C4-3E12-E44D-DCACB0569AA2</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ques_character" id="29793012-EFE8-0FA8-44F9-1645E2F27B7E">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>A5805096-B56D-BE68-9F6A-9F49D924B9EA</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Course_course_code" id="CA358FC0-3391-3358-D0CC-7068C4DCC99D">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>3DB63867-EC8C-EF37-508D-614B986CF408</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="475761CA-85D0-E3D9-59C6-77CFFA1EED35" referredColumn="F7D81BBD-EA91-AB24-D884-193DDDCBB533"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9ECA665E-7A69-E586-5004-A8C094EEA7D8" name="Sample_Question_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>0F1EABDC-3C26-F0BC-5D2D-7473AC1C85BF</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AFB3FF2-0B71-9A86-6E99-E7095F8D548D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0881DAFC-9FED-C023-2075-AD3659BFA2A5" name="Sample_Question__IDX">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E0B2D31B-E83F-E4BB-AC37-F04D192342D7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CA358FC0-3391-3358-D0CC-7068C4DCC99D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEF3D1D8-FD5D-35C4-6FFA-F2E986F6BA99" name="Sample_Question_Course_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>E0B2D31B-E83F-E4BB-AC37-F04D192342D7</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA358FC0-3391-3358-D0CC-7068C4DCC99D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

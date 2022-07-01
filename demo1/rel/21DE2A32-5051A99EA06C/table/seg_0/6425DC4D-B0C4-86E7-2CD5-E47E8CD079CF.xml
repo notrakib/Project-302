@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6425DC4D-B0C4-86E7-2CD5-E47E8CD079CF" name="Rating">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>A4FE7E57-3E9F-D464-5229-8137B9E085B1</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rates" id="BE65A982-F051-64AD-F00C-709E9CDB2701">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>7D6D2C63-BB40-FFAC-A855-E4E4E1E9D2E7</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comments" id="782051AD-F90D-34A0-E09A-D8AD8A3118D2">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>CF4ADA9A-18FC-724B-4E66-2058564DDF85</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_student_id" id="E3CBEE0B-114F-5821-1ADD-65560C3D59F3">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>14AFE91F-9988-581F-CF27-934C3C3EE951</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2F2B457-D4B3-B674-4152-8DC39EE21454" referredColumn="466FC088-91BE-DD06-934B-5F1971C94C28"/>
+</associations>
+</Column>
+<Column name="All_Files_file_name" id="BDC0A313-E0B7-9DD0-CD17-146D461E2A7D">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>3B7AC637-ED78-B721-C813-7A5F2D04C883</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67B574FF-E1BC-69C7-7878-FE09B64FCCF8" referredColumn="13F15E45-ABF2-3F47-E1A5-4945C1FAA4AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F5B6A68-A56B-765C-202A-6A25CA063CF2" name="Rating_PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>AEB3E493-6DD5-4A35-9757-5DC44C1A62F4</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3CBEE0B-114F-5821-1ADD-65560C3D59F3"/>
+<colUsage columnID="BE65A982-F051-64AD-F00C-709E9CDB2701"/>
+<colUsage columnID="782051AD-F90D-34A0-E09A-D8AD8A3118D2"/>
+<colUsage columnID="BDC0A313-E0B7-9DD0-CD17-146D461E2A7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6888FA1-5A56-DFCE-1483-C64149384863" name="Rating_Student_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>F5D8E827-5C54-7029-D0E2-00A05BE7590B</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3CBEE0B-114F-5821-1ADD-65560C3D59F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B679C03A-8F5B-9A85-30A9-91D4DD4D96C0" name="Rating_All_Files_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 06:33:42 UTC</createdTime>
+<generatorID>E50AC59D-5914-07CE-A7A2-1821C1A02AB9</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDC0A313-E0B7-9DD0-CD17-146D461E2A7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rating Student FK" directorySegmentName="seg_0" id="F5D8E827-5C54-7029-D0E2-00A05BE7590B">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 14:37:55 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<sourcePk>97D9909C-61E4-6178-45F6-C3922C17726F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>81EAB6FD-6098-7FAB-C31E-E2C7FB5339F1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A4FE7E57-3E9F-D464-5229-8137B9E085B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

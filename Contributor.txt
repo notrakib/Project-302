@@ -1,0 +1,105 @@
+insert into contributor values (103,'CSE 103');
+insert into contributor values (115,'CSE 106');
+insert into contributor values (118,'CSE 110');
+insert into contributor values (106,'CSE 200');
+insert into contributor values (133,'CSE 209');
+insert into contributor values (118,'CSE 207');
+insert into contributor values (103,'CSE 246');
+insert into contributor values (142,'CSE 246');
+insert into contributor values (118,'CSE 302');
+insert into contributor values (151,'CSE 325');
+insert into contributor values (130,'CSE 345');
+insert into contributor values (124,'CSE 347');
+insert into contributor values (121,'CSE 360');
+insert into contributor values (148,'CSE 400');
+insert into contributor values (136,'CSE 405');
+insert into contributor values (148,'CSE 103');
+insert into contributor values (151,'CSE 106');
+insert into contributor values (130,'CSE 110');
+insert into contributor values (121,'CSE 200');
+
+insert into contributor values (172,'MAT 101');
+insert into contributor values (172,'MAT 102');
+insert into contributor values (175,'MAT 104');
+insert into contributor values (175,'MAT 110');
+insert into contributor values (178,'MAT 205');
+insert into contributor values (178,'STA 102');
+insert into contributor values (175,'MAT 101');
+insert into contributor values (175,'MAT 102');
+insert into contributor values (172,'MAT 104');
+
+insert into contributor values (193,'ECO 101');
+insert into contributor values (196,'ECO 102');
+insert into contributor values (193,'ECO 104');
+insert into contributor values (196,'ECO 200');
+insert into contributor values (193,'ECO 304');
+insert into contributor values (193,'ECO 310');
+insert into contributor values (193,'ECO 315');
+insert into contributor values (196,'ECO 349');
+insert into contributor values (196,'ECO 465');
+insert into contributor values (196,'ECO 101');
+insert into contributor values (193,'ECO 102');
+insert into contributor values (196,'ECO 104');
+insert into contributor values (193,'ECO 200');
+insert into contributor values (196,'ECO 304');
+
+insert into contributor values (181,'BUS 101');
+insert into contributor values (181,'BUS 301');
+insert into contributor values (184,'BUS 231');
+insert into contributor values (184,'BUS 321');
+insert into contributor values (187,'ACT 101');
+insert into contributor values (187,'ACT 201');
+insert into contributor values (184,'BUS 101');
+insert into contributor values (184,'BUS 301');
+insert into contributor values (187,'BUS 231');
+
+insert into contributor values (181,'ENG 101');
+insert into contributor values (181,'ENG 102');
+insert into contributor values (184,'ENG 145');
+insert into contributor values (184,'ENG 154');
+insert into contributor values (187,'ENG 155');
+insert into contributor values (184,'ENG 101');
+insert into contributor values (184,'ENG 102');
+insert into contributor values (181,'ENG 145');
+
+insert into contributor values (193,'SOC 101');
+insert into contributor values (193,'SOC 102');
+insert into contributor values (193,'SOC 202');
+insert into contributor values (196,'SOC 211');
+insert into contributor values (196,'SOC 213');
+insert into contributor values (196,'GEN 201');
+insert into contributor values (196,'SOC 101');
+insert into contributor values (196,'SOC 102');
+insert into contributor values (196,'SOC 202');
+insert into contributor values (193,'SOC 211');
+
+insert into contributor values (163,'POP 201');
+insert into contributor values (166,'POP 202');
+insert into contributor values (169,'POP 203');
+insert into contributor values (166,'POP 201');
+insert into contributor values (169,'POP 202');
+
+insert into contributor values (163, 'PHRM 101');
+insert into contributor values (166, 'PHRM 102');
+insert into contributor values (166, 'PHRM 101');
+insert into contributor values (163, 'PHRM 102');
+
+insert into contributor values (154, 'EEE 101');
+insert into contributor values (157, 'EEE 102');
+insert into contributor values (160,'EEE 105');
+insert into contributor values (163,'EEE 205');
+insert into contributor values (166, 'EEE 300');
+insert into contributor values (169, 'EEE 301');
+insert into contributor values (157, 'EEE 101');
+insert into contributor values (160, 'EEE 102');
+insert into contributor values (163,'EEE 105');
+insert into contributor values (160,'EEE 201');
+
+insert into contributor values (148, 'CE 100');
+insert into contributor values (142, 'CE 101');
+
+insert into contributor values (103, 'ETE 103');
+insert into contributor values (160, 'ETE 107');
+
+insert into contributor values (163, 'BIO 101');
+insert into contributor values (166, 'BIO 301');

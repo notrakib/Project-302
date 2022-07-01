@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F33C6EF5-8ED3-06F2-C969-7ADBC9CB4620" name="Faculty">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 14:13:40 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="faculty_id" id="8703ED90-A890-77C5-65EB-D5D806D88A8A">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 14:13:47 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="faculty_name" id="DBCA08C0-F5D5-07F9-667B-7648FFFAED76">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 14:14:06 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="initials" id="8B49657E-A5DD-9D3A-ED71-26596CDD8626">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:03:51 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="room_no" id="43681794-C3B1-92C6-7823-724D65D0CDB3">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:05:14 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="img" id="B2C145F4-1ABB-5FDE-A0C8-7183712164C0">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:53:25 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="img_name" id="EF26CA59-F1A3-BC82-480E-C33A5F5FEC0D">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:54:14 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="img_type" id="CE086A1F-2C1D-0E36-3A1A-9AC1B96E6EAE">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:54:32 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="img_time" id="B125C1BF-92CF-1AB1-5F6B-D09BA0E92526">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:54:41 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="img_character" id="DED11D5A-479D-F3AE-78C7-C8CE8F53D0A7">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 12:54:55 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91F8D45A-A903-E6FF-1E96-9C92504D448C" name="Faculty PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 14:14:04 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="55B3B264-4CD5-4BFF-89E3-13DAE9B3D070" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8703ED90-A890-77C5-65EB-D5D806D88A8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

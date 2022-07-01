@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reader" directorySegmentName="seg_0" id="8F41BB2A-1BC8-7BBB-76C6-D857AB836604">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:38:55 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="9C483BCD-0681-2CC3-8D33-2272ACEB5F0D" value="true"/>
+</engineerTo>
+<sourcePk>EEB99B38-64C8-8EE8-491D-8B9F83E8B9C3</sourcePk>
+<targetPk>97D9909C-61E4-6178-45F6-C3922C17726F</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AE6038BC-B2FE-D134-9E9F-5DE7A952C481</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81EAB6FD-6098-7FAB-C31E-E2C7FB5339F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="semester" id="7DE03275-5820-F9C2-EDB2-80C5C723056E">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:56:25 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="9C483BCD-0681-2CC3-8D33-2272ACEB5F0D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="year" id="27E69468-7F9A-D52E-BF54-B1D5BEE62C63">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:57:38 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="9C483BCD-0681-2CC3-8D33-2272ACEB5F0D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

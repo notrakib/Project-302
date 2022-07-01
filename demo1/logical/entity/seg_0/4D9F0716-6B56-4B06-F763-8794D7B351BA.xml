@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D9F0716-6B56-4B06-F763-8794D7B351BA" name="Department">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:20:54 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="9064A0B7-28EE-924F-A922-DE93A07187E0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dept name" id="2A85F104-C5DE-C11E-3AAA-39B0AB03CB11">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:21:05 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="9064A0B7-28EE-924F-A922-DE93A07187E0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total credit" id="1DC57556-53C3-FC82-2C64-BD0DD3FA9D00">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-21 16:02:44 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="9064A0B7-28EE-924F-A922-DE93A07187E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="chairperson" id="39FB17EC-B085-B097-DBE6-387BD361886E">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-26 10:21:08 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="9064A0B7-28EE-924F-A922-DE93A07187E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6E2D276-E253-0EA0-8B76-1C9A4CC35A33" name="Department PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:21:22 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="9064A0B7-28EE-924F-A922-DE93A07187E0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A85F104-C5DE-C11E-3AAA-39B0AB03CB11</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

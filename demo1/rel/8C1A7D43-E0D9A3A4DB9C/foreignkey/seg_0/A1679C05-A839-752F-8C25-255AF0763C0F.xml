@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1679C05-A839-752F-8C25-255AF0763C0F" containerWithKeyObject="9010E6D3-9EAB-A61F-E392-E8E86ADFC4AF" localFKIndex="96D5C943-E51A-6F0F-8F34-69A3669C991D" name="Rating_Files_FK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:28:38 UTC</createdTime>
+<generatorID>231E8A75-BB46-9E13-C7C7-9876695F8987</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<referredTableLongName>Files</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8975E944-29ED-2DA2-EF00-F88872A69C75</referredTableID>
+<keyObject>3A5D6E7A-9CDB-6E03-3455-EF375B680B17</keyObject>
+<referredKeyID>3A5D6E7A-9CDB-6E03-3455-EF375B680B17</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>file_name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

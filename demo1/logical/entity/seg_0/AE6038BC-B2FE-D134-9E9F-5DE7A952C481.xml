@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE6038BC-B2FE-D134-9E9F-5DE7A952C481" name="Course">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:15:10 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="course code" id="E222BB2E-C297-9871-7004-199EE46AC0B7">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:16:42 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course title" id="C66C7CD8-5330-5C05-A2D8-D9DD1FCD6E22">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:17:18 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="credit" id="14A87142-F0E7-1231-5BD5-4EBD7639F134">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-23 18:05:51 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept name" id="9B12D569-F396-B9E9-B3F5-BEFE6C4EF430">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-24 07:17:03 UTC</createdTime>
+<generatorID>84FECE0F-F7D3-F04A-B2D2-B2F743F0F467</generatorID>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<referedAttribute>2A85F104-C5DE-C11E-3AAA-39B0AB03CB11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEB99B38-64C8-8EE8-491D-8B9F83E8B9C3" name="Course PK">
+<createdBy>PushToTalk</createdBy>
+<createdTime>2020-12-18 15:18:02 UTC</createdTime>
+<ownerDesignName>demo1</ownerDesignName>
+<engineerTo>
+<item key="D1980FE1-9CAE-E6AB-D299-35110621E142" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E222BB2E-C297-9871-7004-199EE46AC0B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
